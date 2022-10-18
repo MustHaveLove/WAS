@@ -1,0 +1,68 @@
+.body {
+  height: 80vh;
+  display: flex;
+}
+
+.introduce_card {
+  background: silver;
+  height: 80vh;
+  width: 1200px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+
+.profile_card {
+  height: 80vh;
+  width: 350px;
+  text-align: center;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 0 0 0 auto;
+}
+
+.card_header {
+  background: #8977ad;
+  padding: 100px 40px;
+}
+
+.pic {
+  display: inline-block;
+  padding: 8px;
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+}
+
+.pic img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #d5ff00;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 18px;
+  color: #ffd400;
+}
+
+.iname {
+  color: #2f2f2f;
+  line-height: 150px;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.idesc {
+  font-size: 18px;
+  color: #2f2f2f;
+}
