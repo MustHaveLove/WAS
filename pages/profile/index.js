@@ -12,7 +12,7 @@ export default function profile() {
           <div className={styles.idesc}>개인프로젝트, 단체프로젝트와 같은 자기개발을 통해 취업을 준비하고 있습니다.</div>
           <div className={styles.idesc}>열정을 무기로 끊임 없이 성장하여 뒤쳐지지 않는 밝은 개발자로 성장하고 싶습니다.</div>
           <div className={styles.iname}>개발언어</div>
-          <div className={styles.idesc}>Next.js, Python</div>
+          <div className={styles.idesc}>HTML, CSS, JS, Next.js, Python </div>
       </div>
       <div className={styles.profile_card}>
         <div className={styles.card_header}>
