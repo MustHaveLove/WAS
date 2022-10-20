@@ -1,9 +1,11 @@
 import React from "react";
+import styles from "../styles/profile.module.css";
 import Image from "next/image";
-import styles from "../../styles/profile.module.css";
+import Layout from "../components/Layout";
 
 export default function profile() {
   return (
+    <Layout title="profile">
     <div className={styles.body}>
       <div className={styles.introduce_card}>
           <div className={styles.iname}>자기소개</div>
@@ -15,19 +17,17 @@ export default function profile() {
           <div className={styles.idesc}>HTML, CSS, JS, Next.js, Python </div>
       </div>
       <div className={styles.profile_card}>
-        <div className={styles.card_header}>
           <div className={styles.pic}>
-            <Image src="/images.png" width={300} height={300} />
+            <Image src={"/images.png"} alt= "face" width={300} height={300} />
           </div>
           <div className={styles.name}>류재원</div>
-          <div className={styles.desc}>3학년</div>
-          <div className={styles.desc}>중부대학교 정보보호학과</div>
-          <div className={styles.desc}>010-6255-6170</div>
-          <div className={styles.desc}>wodnjs6159@naver.com</div>
-          
-
-        </div>
+          <div className={styles.desc}>소속: 중부대학교 정보보호학과</div>
+          <div className={styles.desc}>학번: 91812282</div>
+          <div className={styles.desc}>학년: 3학년</div>
+          <div className={styles.desc}>전화번호: 010-6255-6170</div>
+          <div className={styles.desc}>이메일: wodnjs6159@naver.com</div>
       </div>
     </div>
+    </Layout>
   );
 }
