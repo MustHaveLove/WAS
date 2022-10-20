@@ -17,6 +17,7 @@ export default function Home() {
         <h1 className={styles.homeTitle}>Home</h1>
         <Link href="about">About</Link>
         <Link href="profile">Profile</Link>
+        <Link href="coins">Coins</Link>
       </main>
 
       <footer className={styles.footer}>
