@@ -4,7 +4,7 @@
 }
 
 .introduce_card {
-  background: silver;
+  background: #c0c0c0;
   height: 80vh;
   width: 1200px;
   text-align: center;
@@ -14,17 +14,13 @@
 
 
 .profile_card {
+  background: #8a2be2;
   height: 80vh;
   width: 350px;
   text-align: center;
-  border-radius: 50px;
   overflow: hidden;
   margin: 0 0 0 auto;
-}
-
-.card_header {
-  background: #8977ad;
-  padding: 100px 40px;
+  border-radius: 50px;
 }
 
 .pic {
