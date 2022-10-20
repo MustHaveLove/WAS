@@ -1,11 +1,9 @@
 import React from "react";
-import styles from "../styles/profile.module.css";
+import styles from "../../styles/profile.module.css";
 import Image from "next/image";
-import Layout from "../components/Layout";
 
 export default function profile() {
   return (
-    <Layout title="profile">
     <div className={styles.body}>
       <div className={styles.introduce_card}>
           <div className={styles.iname}>자기소개</div>
@@ -28,6 +26,5 @@ export default function profile() {
           <div className={styles.desc}>이메일: wodnjs6159@naver.com</div>
       </div>
     </div>
-    </Layout>
   );
 }
